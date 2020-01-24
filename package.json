@@ -1,0 +1,41 @@
+{
+  "name": "react-component-based-ui-screens-Ajar-maharjan",
+  "version": "1.0.0",
+  "description": "\"# react-component-based-ui-screens-Ajar-maharjan\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --mode development --config webpack.config.js && webpack-dev-server --hot --liveReload false",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwarica-github/react-component-based-ui-screens-Ajar-maharjan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/softwarica-github/react-component-based-ui-screens-Ajar-maharjan/issues"
+  },
+  "homepage": "https://github.com/softwarica-github/react-component-based-ui-screens-Ajar-maharjan#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-arrow-functions": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "axios": "^0.19.1",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.4.1",
+    "css-loader": "^3.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0",
+    "react-router-dom": "^5.1.2",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
