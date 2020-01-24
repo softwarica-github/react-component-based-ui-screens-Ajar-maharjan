@@ -42,14 +42,7 @@ class Registration extends React.Component{
 	SubmitHandler = (event) =>{
 		event.preventDefault()
 
-
-		//use api call to post the data 
-		//fetch by defaul
-		//Axios external
-		console.log(this.state)//this is javascipt
-		// 1st url 
-		// 2nd data js object
-		// 3rd header js object
+		console.log(this.state)
 
 		var headers = {
 			'Content-Type':'application/json'
@@ -59,12 +52,10 @@ class Registration extends React.Component{
 			username: this.state.username,
 			password: this.state.password
 		}
-		//fetch method XMLHTTP request
 		Axios.post('http://localhost:3004/registration', data, headers)
 		.then((res) => {
 			console.log(res.data.status);
 			if(res.status === 201){
-				//redirect to loginpage
 				this.setState({redirect:true})
 			}
 
